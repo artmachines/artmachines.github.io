@@ -3442,4 +3442,15 @@ html.no-csstransitions .home-content__main {
   }
 }
 
+.fa-heart:before {
+  content: "\f1e2";
+  color: yellow;
+}
+
+.fa .fa-heart{
+    -webkit-animation: pulse 1s linear infinite;
+    -moz-animation: pulse 1s linear infinite;
+    -ms-animation: pulse 1s linear infinite;
+    animation: pulse 1s infinite;
+}
 /*# sourceMappingURL=main.css.map */
